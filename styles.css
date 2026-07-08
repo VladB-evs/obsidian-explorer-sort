@@ -1,0 +1,61 @@
+.explorer-sort-hint {
+	color: var(--text-muted);
+	margin-top: 0;
+}
+
+.explorer-sort-list {
+	max-height: 50vh;
+	overflow-y: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	margin-bottom: 1em;
+}
+
+.explorer-sort-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 10px;
+	border-bottom: 1px solid var(--background-modifier-border);
+	cursor: grab;
+	user-select: none;
+}
+
+.explorer-sort-row:last-child {
+	border-bottom: none;
+}
+
+.explorer-sort-row:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.explorer-sort-row.is-dragging {
+	opacity: 0.4;
+}
+
+.explorer-sort-row.is-drop-target {
+	box-shadow: inset 0 2px 0 0 var(--interactive-accent);
+}
+
+.explorer-sort-grip {
+	color: var(--text-faint);
+	cursor: grab;
+}
+
+.explorer-sort-name {
+	flex: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.explorer-sort-controls {
+	display: flex;
+	gap: 4px;
+}
+
+.explorer-sort-controls button {
+	padding: 0 8px;
+	height: 24px;
+	line-height: 1;
+}

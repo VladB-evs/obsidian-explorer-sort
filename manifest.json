@@ -1,0 +1,9 @@
+{
+	"id": "explorer-sort",
+	"name": "Explorer Sort",
+	"version": "1.0.0",
+	"minAppVersion": "1.2.0",
+	"description": "Manually arrange files and folders in the file explorer with a custom order per folder.",
+	"author": "Vlad Bacila",
+	"isDesktopOnly": false
+}
